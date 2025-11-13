@@ -7,4 +7,4 @@ This is a lightweight web version of the **Trade Raider Dashboard**, showing:
 ## 🚀 Run Locally
 1. Clone this repository  
    ```bash
-   git clone https://github.com/<your-username>/traderaider.io
+   git clone https://github.com/<your-username>/traderaider.github.io
