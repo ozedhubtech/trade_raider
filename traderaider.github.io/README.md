@@ -1,4 +1,4 @@
-#Trade Raider Web App
+# Trade Raider Web App
 
 This is a lightweight web version of the **Trade Raider Dashboard**, showing:
 - Real-time BUY/SELL signals with Entry, Stop Loss, and Take Profit
