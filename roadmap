@@ -1,0 +1,70 @@
+# TradeRaider Project Roadmap — Updated
+Phase 1: Signal Dashboard & Backend API (DONE)
+
+Built FastAPI backend with /webhook (POST) and /latest_signal (GET) endpoints
+
+Developed frontend dashboard hosted on GitHub Pages to display live signals
+
+Connected frontend with backend via fetch API for real-time updates
+
+Deployed backend on Render.com
+
+Handled CORS and deployment issues
+
+Phase 2: Signal Generation & Sending
+
+Current focus:
+
+Build Python MT5 signal sender script
+
+Connects to MT5 desktop via Python API
+
+Implements your trading strategy logic to generate signals
+
+Sends signals to backend webhook
+
+Testing script locally and on a server/VPS
+
+Phase 3: Deployment & Automation
+
+Set up GitHub repo for Python signal sender code
+
+Automate deployment with GitHub Actions or CI/CD pipeline
+
+Deploy signal sender script on VPS or cloud instance
+
+Ensure 24/7 operation and reliability
+
+Phase 4: Enhancements & White-labeling
+
+Add authentication & security (e.g., HMAC signing for webhook)
+
+Add multi-symbol and multi-strategy support
+
+Integrate more data sources (MT5, TradingView, others)
+
+Build broker white-label API/license model
+
+UI/UX improvements and branding polish
+
+Phase 5: Optional — Advanced Features
+
+Develop a full trading bot with order execution
+
+Add notifications (email, SMS, push) for signals
+
+Add analytics and reporting dashboard
+
+Expand to mobile apps or desktop clients
+
+Next Steps When You’re Ready
+
+Create and push Python MT5 signal sender script to GitHub
+
+Test signal sender locally, connecting MT5 with backend webhook
+
+Deploy signal sender to VPS or cloud
+
+Connect dashboard & backend fully for live signals from MT5
+
+Iterate on strategy and UI based on feedback
